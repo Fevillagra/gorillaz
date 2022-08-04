@@ -1,0 +1,163 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+/*======================MOBILE================================ */
+
+/* MENU */
+body {
+    font-family: 'Roboto', sans-serif !important;
+    font-size: 20px !important;
+}
+
+.li {
+    list-style: none !important;
+    font-weight: bolder !important;
+    a {
+        text-decoration: none !important;
+        color:black !important;
+    }
+}
+
+
+.menu {
+    display: flex;
+    font-size: 1.31rem;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding-top: 39px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: 10px !important;
+    margin-right: 10px !important;
+     li{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
+.menu li a:hover {
+    color:orangered !important;
+    font-size: 30px;
+}
+.title {
+    font-size: 1.5rem;
+}
+/* footer */
+.redes {
+    color: white !important;
+}
+
+.letterstyle {
+    font-size: smaller;
+}
+.folist {
+    list-style: none !important;
+    text-decoration: none !important;
+}
+.folist a{
+  text-decoration: none !important;
+}
+
+/*INDEX*/
+.indtext {
+    background-color: rgb(246, 134, 93);
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+
+/*MIEMBROS*/
+
+.naranja {
+    color: orangered !important;
+    font-weight: bolder;
+}
+
+.member {
+    padding-top: 10px !important;
+}
+
+.negro {
+    background-color: black;
+}
+
+.imagen {
+    width:auto;
+    height: auto;
+}
+
+/* CONTACTO */
+
+.nombre {
+    margin-top: 20px;
+}
+
+.email {
+    margin-left: 24px;
+}
+
+textarea {
+    width: 350px;
+    height: 100px;
+}
+
+.enviar {
+    margin-bottom: 20px;
+}
+
+/*Song machine*/
+
+.textc {
+    text-align: center;
+}
+
+/* =========================TABLET===============================*/
+
+@media screen and (min-width: 711px) {
+    .go {
+        display: flex;
+        justify-content: center;
+    }
+    .gorillaz {
+        width: 500px;
+        height: 151.5px;
+    }
+}
+
+/* ========================Deskop================================ */
+
+@media screen and (min-width: 1000px) {
+    .nosotros {
+        margin-left: 20px;
+    }
+
+    .info {
+        margin-right: 20px;
+    }
+    //index
+    .img {
+        width: auto;
+        height: auto;
+    }
+    .indgrid {
+        display: grid;
+        grid-template-columns: auto 1fr;
+        grid-template-rows:  auto;
+    }
+    .go {
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+    .indtext {
+        grid-column: 2/3;
+        grid-row: 1/2;
+        margin-bottom: 0px;
+    }
+    //footer
+    .foot {
+        margin-top: 25px;
+    }
+}
+
+
